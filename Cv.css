@@ -19,6 +19,8 @@
             min-height: 1000px;
             background: #fff;
             margin: 50px;
+            margin-top: 0%;
+            margin-bottom: 0%;
             display: grid;
             grid-template-columns: 1fr 2fr;
             box-shadow: 0 35px 55px rgba(0,0,0,0.1);
@@ -80,24 +82,24 @@
             background: rgb(2, 40, 71);
             padding: 40px;
         }
-        .banner {
-          padding: 60px;
-          text-align: center;
-          background-image: linear-gradient(rgb(2, 40, 71),rgb(20, 119, 201));
-          color: white;
-          font-size: 60px;
-          width: 100%;
+
+        .image_banner{
+            position: relative;
+            width: 100%;
+            height: 200px;
             max-width: 1000px;
             margin: 50px;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            overflow: hidden;
         }
-        .footer {
-          padding: 30px;
-          text-align: center;
-          background-image: linear-gradient(rgb(2, 40, 71),rgb(20, 119, 201));
-          color: white;
-          font-size: 30px;
-          width: 100%;
+        .image_footer{
+            position: relative;
+            width: 100%;
+            height: 80px;
             max-width: 1000px;
             margin: 50px;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            overflow: hidden;
         }
-            
