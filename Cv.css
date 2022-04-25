@@ -1,0 +1,103 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+                body{
+            background: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .conteneur{
+            position: relative;
+            width: 100%;
+            max-width: 1000px;
+            min-height: 1000px;
+            background: #fff;
+            margin: 50px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+        }
+        .InfoContact{
+            padding-top: 40px;
+        }
+        .InfoContact ul{
+            position: relative;
+        }
+        .InfoContact ul li{
+            position: relative;
+            list-style: none;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+        
+        .InfoContact ul li .iconne{
+            display: inline-block;
+            width: 30px;
+            font-size: 18px;
+            color:lightblue;
+        }
+        .InfoContact ul li span{
+            color: rgb(255, 255, 255);
+            font-weight: 300;
+        }
+        .titre{
+            color: rgb(7, 0, 0);
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .text_de_profil .imgBx{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .text_de_profil .imgBx img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .conteneur .cote_gauche {
+            position: relative;
+            background: #e8f8ff;
+            padding: 40px;
+        }
+        .conteneur .cote_droit {
+            position: relative;
+            background: rgb(2, 40, 71);
+            padding: 40px;
+        }
+        .banner {
+          padding: 60px;
+          text-align: center;
+          background-image: linear-gradient(rgb(2, 40, 71),rgb(20, 119, 201));
+          color: white;
+          font-size: 60px;
+          width: 100%;
+            max-width: 1000px;
+            margin: 50px;
+        }
+        .footer {
+          padding: 30px;
+          text-align: center;
+          background-image: linear-gradient(rgb(2, 40, 71),rgb(20, 119, 201));
+          color: white;
+          font-size: 30px;
+          width: 100%;
+            max-width: 1000px;
+            margin: 50px;
+        }
+            
